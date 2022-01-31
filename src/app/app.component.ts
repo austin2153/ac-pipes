@@ -16,6 +16,15 @@ export class AppComponent {
     {'name': 'Kepler-186f'}, 
     {'name': 'Kepler-452b'}
   ];
+  itemPrice: number = 5.50;
 
-// add somethign here
+  // date
+  currentDate = Date.now();
+  numDateFormat = 1478496544151;
+  getYear = 'Tue Dec 12 2018 11:20:18 GMT+0530';
+  getTime = 'Wed Jan 20 2019 12:20:18 GMT+0530';
+
+  customText: string = "Our solar system is made up of a star, eight planets,\
+    and countless smaller bodies such as dwarf planets, asteroids and comets.";
+
 }
